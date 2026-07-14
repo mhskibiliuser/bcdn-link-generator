@@ -1,0 +1,13 @@
+{
+  "name": "bcdn-linkgen",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Standalone Bunny CDN pull-zone link generator",
+  "bin": { "bcdn-linkgen": "cli.js" },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}
